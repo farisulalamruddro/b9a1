@@ -20,6 +20,10 @@ p {
   font-family: "Inter", sans-serif;
 }
 
+body.main{
+  padding: 0px 10px;
+}
+
 .container {
   max-width: 1320px;
   margin: auto;
@@ -30,6 +34,10 @@ p {
 }
 
 /* Hero Section */
+
+.hero_section{
+  margin-top: 50px;
+}
 
 .hero_section .container {
   display: flex;
@@ -369,6 +377,20 @@ p {
   max-width: 572px;
   position: relative;
   z-index: 2;
+}
+
+.discounted_element .right-col{
+  position: relative;
+  padding-left: 5%;
+}
+
+.discounted_element .right-col .discount_label{
+  transform: rotate(-34.212deg);
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  transform: translate(-5%, -30%);
+  z-index: 999;
 }
 
 .bottom_red {

@@ -1,0 +1,381 @@
+/* Merriweather & Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Merriweather", serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.container-p-40 {
+  padding: 40px 0px;
+}
+
+/* Hero Section */
+
+.hero_section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-image: url(/assets/media/Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  position: relative;
+}
+
+.hero_section .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.hero_section .content {
+  color: #fff;
+  text-align: center;
+  max-width: 632px;
+  position: inherit;
+  z-index: 2;
+}
+
+.hero_section .content h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero_section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+  margin-top: 16px;
+}
+
+.discount_section {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.discount_section .container {
+  max-width: 800px;
+}
+
+.discount_amount {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.holiday_deals_text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 48px 0px 16px 0px;
+}
+
+.title_h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.discount_section .container img {
+  margin-top: 48px;
+}
+
+.welcome_section .container {
+  background-image: url(/assets/media/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 126px 138px 142px 138px;
+  min-height: 600px;
+  position: relative;
+}
+
+.welcome_section .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.welcome_section .container .content {
+  max-width: 70%;
+}
+
+.welcome_section .container .img {
+  max-width: 25%;
+}
+
+.welcome_section .container .content,
+.welcome_section .container .img {
+  position: inherit;
+  z-index: 2;
+}
+
+.welcome_section .container h2 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.welcome_section .container p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin: 24px 0px 48px 0px;
+}
+.welcome_section .container a {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.eventInfo_section {
+  padding: 120px 0px;
+}
+
+.eventInfo_section .container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.eventInfo_section .container p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.eventInfo_section .container p span {
+  color: #f00;
+}
+
+.eventInfo_section button {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  margin-top: 48px;
+  background-color: #f00;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.offer_grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.offer_grid .left-col {
+  width: 393px;
+}
+
+.offer_grid .center-col img {
+  width: 464px;
+  padding: 50px;
+  border: 15px solid #f00;
+  border-radius: 100%;
+}
+
+.offer_grid .right-col {
+  width: 276px;
+}
+
+.offer_grid h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.offer_grid h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 16px 0px 22px 0px;
+}
+
+.offer_grid p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.offer_grid .right-col h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer_grid .right-col h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer_grid .right-col p {
+  margin: 16px 0px 33px 0px;
+}
+
+.holidaySale_section {
+  padding: 120px 0px;
+  text-align: center;
+}
+
+.holidaySale_section h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.holidaySale_section h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 16px 0px 28px 0px;
+}
+
+.holidaySale_section h3 span {
+  color: #f00;
+}
+
+.holidaySale_section .container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.discounted_element {
+  padding: 120px 0px;
+}
+
+.discounted_element .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.discounted_element .left-col img {
+  max-width: 572px;
+  position: relative;
+  z-index: 2;
+}
+
+.bottom_red {
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  background: #f00;
+  margin-top: -150px;
+  position: relative;
+  z-index: 1;
+}

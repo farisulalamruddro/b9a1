@@ -29,8 +29,33 @@ body.main{
   margin: auto;
 }
 
-.container-p-40 {
-  padding: 40px 0px;
+.fs-sm{
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fs-reg{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.dark{
+  color: #070211;
+}
+
+.red{
+  color: #f00;
+}
+
+.red-bg{
+  background-color: #f00;
 }
 
 /* Hero Section */
@@ -74,7 +99,6 @@ body.main{
 .hero_section .content h2 {
   color: #fff;
   text-align: center;
-  font-family: Merriweather;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -84,7 +108,6 @@ body.main{
 .hero_section h1 {
   color: #fff;
   text-align: center;
-  font-family: Merriweather;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -102,7 +125,6 @@ body.main{
 }
 
 .discount_amount {
-  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 88px;
@@ -112,7 +134,6 @@ body.main{
 }
 
 .holiday_deals_text {
-  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 24px;
@@ -232,9 +253,6 @@ body.main{
   text-transform: capitalize;
 }
 
-.eventInfo_section .container p span {
-  color: #f00;
-}
 
 .eventInfo_section button {
   color: #fff;
@@ -246,7 +264,6 @@ body.main{
   text-transform: uppercase;
   padding: 16px 32px;
   margin-top: 48px;
-  background-color: #f00;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -275,18 +292,9 @@ body.main{
   width: 276px;
 }
 
-.offer_grid h3 {
-  color: #f00;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
 
 .offer_grid h2 {
   color: #070211;
-  font-family: Merriweather;
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -305,7 +313,6 @@ body.main{
 }
 
 .offer_grid .right-col h3 {
-  color: #f00;
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
@@ -314,7 +321,6 @@ body.main{
 }
 
 .offer_grid .right-col h4 {
-  color: #f00;
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
@@ -331,18 +337,9 @@ body.main{
   text-align: center;
 }
 
-.holidaySale_section h2 {
-  color: #070211;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
 
 .holidaySale_section h3 {
   color: #070211;
-  font-family: Merriweather;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -350,9 +347,6 @@ body.main{
   margin: 16px 0px 28px 0px;
 }
 
-.holidaySale_section h3 span {
-  color: #f00;
-}
 
 .holidaySale_section .container p {
   color: rgba(7, 2, 17, 0.6);
@@ -364,7 +358,7 @@ body.main{
 }
 
 .discounted_element {
-  padding: 120px 0px;
+  padding: 120px 0px 0px 0px;
 }
 
 .discounted_element .container {
@@ -396,8 +390,108 @@ body.main{
 .bottom_red {
   height: 229px;
   border-radius: 16px 0px 16px 16px;
-  background: #f00;
   margin-top: -150px;
   position: relative;
   z-index: 1;
+}
+
+
+.gift_section{
+  padding-bottom: 120px;
+}
+
+.gift_section h2{
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 16px 0px 22px 0px;
+}
+
+.gift_section .img-grid{
+  padding-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gift_section .img-grid img{
+  max-width: calc(33.33% - 24px);
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.newsletter_section .container{
+  padding: 80px 0px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter_section .content{
+  max-width: 896px;
+  margin: auto;
+}
+
+.newsletter_section h2{
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+  margin: 40px 0 22px 0;
+}
+
+.newsletter_section form{
+  max-width: 648px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 48px auto 0px auto;
+  border-radius: 50px;
+}
+
+.newsletter_section form .submitbtn{
+  width: 210px;
+  height: 72px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.newsletter_section form .email-input{
+  height: 72px;
+  color: rgba(7, 2, 17, 0.30);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 30px;
+  border: none;
+  outline: none;
+}
+
+
+footer{
+  background: #070211;
+}
+
+.meta-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
 }

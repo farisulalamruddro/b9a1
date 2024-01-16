@@ -20,7 +20,7 @@ p {
   font-family: "Inter", sans-serif;
 }
 
-body.main{
+body.main {
   padding: 0px 10px;
 }
 
@@ -29,7 +29,7 @@ body.main{
   margin: auto;
 }
 
-.fs-sm{
+.fs-sm {
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -37,8 +37,8 @@ body.main{
   line-height: normal;
 }
 
-.fs-reg{
-  color: rgba(7, 2, 17, 0.60);
+.fs-reg {
+  color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -46,21 +46,21 @@ body.main{
   line-height: 32px; /* 160% */
 }
 
-.dark{
+.dark {
   color: #070211;
 }
 
-.red{
+.red {
   color: #f00;
 }
 
-.red-bg{
+.red-bg {
   background-color: #f00;
 }
 
 /* Hero Section */
 
-.hero_section{
+.hero_section {
   margin-top: 50px;
 }
 
@@ -69,7 +69,7 @@ body.main{
   align-items: center;
   justify-content: center;
   height: 600px;
-  background-image: url(assets/media/Banner.png);
+  background-image: url(../media/Banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -158,7 +158,7 @@ body.main{
 }
 
 .welcome_section .container {
-  background-image: url(assets/media/Vectorrr.png);
+  background-image: url(../media/Vectorrr.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -253,7 +253,6 @@ body.main{
   text-transform: capitalize;
 }
 
-
 .eventInfo_section button {
   color: #fff;
   text-align: center;
@@ -291,7 +290,6 @@ body.main{
 .offer_grid .right-col {
   width: 276px;
 }
-
 
 .offer_grid h2 {
   color: #070211;
@@ -337,7 +335,6 @@ body.main{
   text-align: center;
 }
 
-
 .holidaySale_section h3 {
   color: #070211;
   font-size: 72px;
@@ -346,7 +343,6 @@ body.main{
   line-height: normal;
   margin: 16px 0px 28px 0px;
 }
-
 
 .holidaySale_section .container p {
   color: rgba(7, 2, 17, 0.6);
@@ -373,12 +369,12 @@ body.main{
   z-index: 2;
 }
 
-.discounted_element .right-col{
+.discounted_element .right-col {
   position: relative;
   padding-left: 5%;
 }
 
-.discounted_element .right-col .discount_label{
+.discounted_element .right-col .discount_label {
   transform: rotate(-34.212deg);
   position: absolute;
   top: 30%;
@@ -395,12 +391,11 @@ body.main{
   z-index: 1;
 }
 
-
-.gift_section{
+.gift_section {
   padding-bottom: 120px;
 }
 
-.gift_section h2{
+.gift_section h2 {
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -409,7 +404,7 @@ body.main{
   margin: 16px 0px 22px 0px;
 }
 
-.gift_section .img-grid{
+.gift_section .img-grid {
   padding-top: 48px;
   display: flex;
   flex-wrap: wrap;
@@ -417,7 +412,7 @@ body.main{
   gap: 24px;
 }
 
-.gift_section .img-grid img{
+.gift_section .img-grid img {
   max-width: calc(33.33% - 24px);
   width: 100%;
   height: 450px;
@@ -425,29 +420,29 @@ body.main{
   border-radius: 16px;
 }
 
-.newsletter_section .container{
+.newsletter_section .container {
   padding: 80px 0px;
   text-align: center;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
 }
 
-.newsletter_section .content{
+.newsletter_section .content {
   max-width: 896px;
   margin: auto;
 }
 
-.newsletter_section h2{
-text-align: center;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+.newsletter_section h2 {
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
   margin: 40px 0 22px 0;
 }
 
-.newsletter_section form{
+.newsletter_section form {
   max-width: 648px;
   display: flex;
   align-items: center;
@@ -457,10 +452,10 @@ text-transform: capitalize;
   border-radius: 50px;
 }
 
-.newsletter_section form .submitbtn{
+.newsletter_section form .submitbtn {
   width: 210px;
   height: 72px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
@@ -472,9 +467,9 @@ text-transform: capitalize;
   border-radius: 0px 50px 50px 0px;
 }
 
-.newsletter_section form .email-input{
+.newsletter_section form .email-input {
   height: 72px;
-  color: rgba(7, 2, 17, 0.30);
+  color: rgba(7, 2, 17, 0.3);
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -485,17 +480,17 @@ text-transform: capitalize;
   outline: none;
 }
 
-
-footer{
+footer {
   background: #070211;
   padding: 120px 0;
 }
 
-.meta-info, .meta-info button{
+.meta-info,
+.meta-info button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -506,24 +501,23 @@ footer{
   cursor: pointer;
 }
 
-.meta-info .left-col{
+.meta-info .left-col {
   max-width: 375px;
 }
 
-.meta-info .contact-info ul li{
+.meta-info .contact-info ul li {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-bottom: ;
 }
 
-.border{
+.border {
   height: 1px;
   background: rgba(255, 255, 255, 0.15);
   margin: 50px 0px;
 }
 
-footer .social{
+footer .social {
   display: flex;
   align-items: center;
   justify-content: center;
